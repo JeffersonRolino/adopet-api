@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/tutores")
 public class TutorController {
-
+    //TODO> Refatorar o Controller Tutor para usar o padrão DTO
+    //TODO> Isolar Repository
+    //TODO> Separar lógica de negócio em Services caso necessário
     @Autowired
     private TutorRepository repository;
 

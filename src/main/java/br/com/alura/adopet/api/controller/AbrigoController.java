@@ -15,7 +15,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/abrigos")
 public class AbrigoController {
-
+    //TODO> Refatorar o Controller Abrigo para usar o padrão DTO
+    //TODO> Isolar Repository
+    //TODO> Separar lógica de negócio em Services caso necessário
     @Autowired
     private AbrigoRepository repository;
 

@@ -12,6 +12,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "abrigos")
 public class Abrigo {
+    //TODO> Remover redundâncias da Entidade JPA
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

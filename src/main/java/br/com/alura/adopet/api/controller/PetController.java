@@ -15,6 +15,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/pets")
 public class PetController {
+    //TODO> Refatorar o Controller Pet para usar o padrão DTO
+    //TODO> Isolar Repository
+    //TODO> Separar lógica de negócio em Services caso necessário
 
     @Autowired
     private PetRepository repository;
